@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Problem 1 : Registration Form</title>
+        <style>
+            div {
+                margin-bottom: 2em;
+            }
+            span {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Problem 1 : Registration Form</h1>
+        <form action="" method="get">
+            <!-- Fill up the missing HTML script here -->
+            <div>
+                <!-- Full Name -->
+                <span>Full Name *</span> <br>
+                <input type="text" id="fname" name="fname" placeholder="First Name">
+                <input type="text" id="fname" name="fname" placeholder="Middle Name">
+                <input type="text" id="fname" name="fname" placeholder="Last Name"><br>
+
+            </div>
+            <div>
+                <!-- Identification Card -->
+                <span>Identification Card</span><br>
+                <input type="text" id="idcard" name="idcard" value=""><label>-</label>
+                <input type="text" id="idcard" name="idcard" value=""><label>-</label>
+                <input type="text" id="idcard" name="idcard" value="">
+
+                
+            </div>
+            <div>
+                <!-- Gender -->
+                <span>Gender</span> <br>
+                <input type="radio" id="gender" name="gender" value="Male"><label>Male</label>
+                <input type="radio" id="gender" name="gender" value="Female"><label>Female</label>
+            </div>
+            <div>
+                <!-- Birth Date -->
+                <span>Birth Date</span> <br>
+                <input type="text" id="birthdate" name="day" placeholder="Day">
+                <select placeholder="Month">
+                    <option name="January" value="Jan">January</option>
+                    <option name="February" value="Feb">February</option>
+                    <option name="March" value="Mar">March</option>
+                    <option name="April" value="Apr">April</option>
+                      <option name="May" value="May">May</option>
+                    <option name="June" value="Jun">June</option>
+                    <option name="July" value="Jul">July</option>
+                    <option name="August" value="Aug">August</option>
+                      <option name="September" value="Sep">September</option>
+                    <option name="October" value="Oct">October</option>
+                    <option name="November" value="Nov">November</option>
+                    <option name="December" value="Dec">December</option>
+                  </select>
+                <input type="text" id="birthdate" name="year" placeholder="Year">
+            </div>
+            <!-- Register -->
+            <input type="submit" value="Register">
+        </form>
+    </body>
+</html>
