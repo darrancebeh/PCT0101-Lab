@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        form :not(select):not(datalist) {
+            display: block;
+            margin-top: 15px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Transfer Money</h1>
+    <form>
+      <span>To Favourite Account:</span>
+      <select id="accounts" name="accounts">
+        <option style ="display:none" value=" "></option>
+        <option value="Ali">Ali</option>
+        <option value="Bob">Bob</option>
+        <option value="Cindy">Cindy</option>
+      </select>
+
+      <span>Amount:</span>
+      <input type="number">
+
+      <span>Enter the 6-letter TAC</span>
+      <input type="password">
+        <!-- Fill in the blank here (do not edit the surrounding HTML and CSS) -->
+        
+    </form>
+  </body>
+</html>
